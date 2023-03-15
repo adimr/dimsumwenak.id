@@ -1,6 +1,6 @@
 :root {
-  --primary: #fffb00;
-  --bg: #da291c;
+  --primary: #ffff66;
+  --bg: #e62129;
 }
 
 * {
@@ -138,8 +138,8 @@ body {
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.4rem;
-  color: var(--bg);
-  background-color: var(--primary);
+  color: #fff;
+  background-color: var(--bg);
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
 }
@@ -282,14 +282,14 @@ body {
   padding: 1rem 3rem;
   font-size: 1.7;
   color: var(--bg);
-  background-color: var(--primary);
+  background-color: #fff;
   cursor: pointer;
   letter-spacing: 1px;
   font-weight: 600;
 }
 /* footer */
 footer {
-  background-color: var(--primary);
+  background-color: #fff;
   text-align: center;
   padding: 1rem 0 3rem;
   margin-top: 3rem;
@@ -298,18 +298,19 @@ footer .socials {
   padding: 1rem 0;
 }
 footer .socials a {
-  color: #000;
+  color: var(--bg);
   margin: 1rem;
+  font-size: 25px;
 }
 footer .socials a:hover,
 footer .links a:hover {
-  color: var(--bg);
+  color: #000;
 }
 .footer .links {
   margin-bottom: 1.4rem;
 }
 footer .links a {
-  color: #000;
+  color: var(--bg);
   padding: 0.7rem 1rem;
 }
 footer .credit {
